@@ -26,8 +26,7 @@ def index_search(files, index, terms):
 
     """
     Given an index and a list of fully-qualified filenames, return a list of
-    filenames whose file contents has all words in terms parameter as normalized
-    by your words() function.  
+    filenames whose file contents has all words in terms parameter 
     """
     # get a list of all files that contain each search term and append a list
     common_words = []
